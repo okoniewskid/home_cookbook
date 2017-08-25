@@ -6,3 +6,6 @@
 
 # Install Chocolatey
 include_recipe 'chocolatey::default'
+
+# Install Chocolatey dependant packages
+include_recipe 'home_cookbook::chocolatey_packages'
