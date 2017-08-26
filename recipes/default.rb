@@ -10,9 +10,6 @@ include_recipe 'chocolatey::default'
 # Install Chocolatey dependant packages
 include_recipe 'home_cookbook::chocolatey_packages'
 
-# Installs software for entertainment like games
-include_recipe 'home_cookbook::entertainment'
-
 # Installs slack from website
 windows_package 'slack' do
   source 'https://slack.com/ssb/download-win'
