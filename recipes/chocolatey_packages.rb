@@ -10,13 +10,13 @@ chocolatey_package 'packages' do
     vagrant-manager
     packer
     docker
+    docker-for-windows
     docker-compose
     ruby
     mpc-hc
     ccleaner
     curl
     thunderbird
-    virtualbox
     winscp
     totalcommander
     rufus
