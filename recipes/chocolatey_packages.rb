@@ -21,6 +21,7 @@ chocolatey_package 'packages' do
     totalcommander
     rufus
     vim
+    conemu
   ]
   timeout 3600
 end
