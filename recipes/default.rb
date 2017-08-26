@@ -16,3 +16,10 @@ windows_package 'slack' do
   action :install
   installer_type :inno
 end
+
+# Installs github desktop from website
+windows_package 'github desktop' do
+  source 'https://central.github.com/deployments/desktop/desktop/latest/win32'
+  action :install
+  installer_type :inno
+end
